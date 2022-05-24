@@ -13,7 +13,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static ru.iukhimenko.vehiclestatusapi.conditions.StandardConditions.statusCode;
 
-public class RoofTopStatusTests extends ApiTest {
+public class RoofTopStatusTest extends ApiTest {
     private final VehicleStatusApiService vehicleStatusApiService = new VehicleStatusApiService();
 
     @ParameterizedTest()
